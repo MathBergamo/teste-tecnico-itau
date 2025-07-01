@@ -3,7 +3,8 @@
 ## Uso
 
 Esta documentação tem como objetivo apresentar o desafio técnico proposto pelo Itaú. 
-Seu uso é exclusivamente educacional. Aplicarei meus conhecimentos de acordo com as especificações do desafio.
+Seu uso é exclusivamente educacional. Aplicarei meus conhecimentos de acordo com as especificações do desafio utilizando
+a lingaguem Java e Spring Boot.
 
 ## 📘 Contexto
 
