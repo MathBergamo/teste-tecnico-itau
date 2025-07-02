@@ -1,11 +1,11 @@
 services:
   mysql:
-    image: mysql:latest
+    image: mysql:8.0
     container_name: mysql
     environment:
-      MYSQL_DATABASE: root
+      MYSQL_DATABASE: testeitau
       MYSQL_ROOT_PASSWORD: root
     ports:
       - "3306:3306"
     volumes:
-      - ./mysql:/var/lib/mysql
+      - ./mysql-data:/var/lib/mysql
