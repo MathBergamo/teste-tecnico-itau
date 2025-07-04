@@ -12,6 +12,7 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import teste.tecnico.itau.entity.ENUM.TipoOperacao;
 
 import java.math.BigDecimal;
@@ -19,6 +20,7 @@ import java.time.LocalDateTime;
 
 @Entity
 @AllArgsConstructor
+@Getter
 @Table(name = "operacoes",
         indexes = {
                 @Index(name = "idx_operacoes_usuario_ativo_data", columnList = "id_usuario, id_ativo, data_hora")
